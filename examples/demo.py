@@ -28,7 +28,7 @@ def main():
     # Load tasks from a JSON file or return inline dict/list.
     print("📝 Example: load_tasks()")
     result = load_tasks(
-        file_path="sample.txt"  # Replace with actual file path
+        file_path="sample.txt"
     )
     print(f"   Result: {result}")
     print()
